@@ -153,5 +153,4 @@ for (i, (gX, gY, gW, gH)) in enumerate(locs):
 
 # 打印结果
 print("信用卡卡号 # ：", format("".join(output)))
-cv2.imshow("image", image)
-cv2.waitKey(0)
+cv_show("image", image)
